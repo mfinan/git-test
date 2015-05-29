@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	Dining </title> <!--requirement 3-->
+	<meta charset="UTF-8"/>  <!--requirement 12-->
+	<link rel = "stylesheet" type = "text/css" href = "Main.css">
+	<!-- <link rel = "stylesheet" type = "text/css" href = "dining.css"> -->
+<style>
+body{
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+header{
+  margin: 0;
+  padding: 0;
+  background-color:#727A61;
+  width:1124px;
+  height:100px;
+}
+section{
+  width:800px;
+	float:left;
+}
+section h1{
+	margin-left:100px;
+	padding-top:20px;
+}
+table{
+	margin-left:100px;
+}
+#logo{
+  height:100px;
+  width:200px;
+  display:inline-block;
+}
+#logo p{
+  margin:0;
+  padding-top:20px;
+  padding-left:30px;
+  text-align: left;
+  padding-bottom:20px;
+  line-height: 30px;
+  font-size:200%;
+  color:white;
+}
+#slogan{
+  height:100%;
+  width:800px;
+  float:right;
+}
+#slogan p{
+  margin:0;
+  text-align:center;
+  padding-top:30px;
+  padding-left:60px;
+  text-align: left;
+  line-height: 40px;
+  font-size:40px;
+  color:white;
+}
+#body_style{
+  background-color:white;
+  width:1124px;
+  margin-left: auto;
+  margin-right: auto;
+  border:1px solid lightgrey;
+	border-bottom:none;
+}
+#left-menu{
+  width:180px;
+  height:380px;
+  background-color:#B9BCB1;
+  float:left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#left-menu ul{
+  padding-bottom:20px;
+  padding-right:0;
+  padding-left:20px;
+}
+#left-menu li{
+  list-style-type: none;
+  padding:8px;
+  font-size:28px;
+}
+#easidine{
+	margin:0;
+	width:800px;
+	height:370px;
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+	color:grey;
+	font-size:150%;
+}
+#easidine p{
+	font-size:150%;
+}
+a{
+  text-decoration:none;
+  padding: 0;
+  }
+#left-menu a{
+	color: white;
+}
+
+#grid{
+  padding: 0;
+  padding-left:20px;
+  list-style-type: none;
+  margin: 20px auto 0;
+  margin-top:0;
+  margin-bottom:10px;
+  width: 900px;
+  float:left;
+
+}
+#grid li{
+  float: left;
+  padding: 0;
+  margin: 0 5px 10px 5px;
+  float:left;
+  text-align: center;
+
+}
+#grid li a{
+  display: block;
+  color: #727A61;
+	padding:3px;
+
+}
+#grid li img{
+  background-color: white;
+  padding: 7px; margin: 0;
+  border: 1px solid #58595b;
+	border-bottom:none;
+  width: 410px;
+  height: 120px;
+  float:left;
+}
+article{
+  padding-left:20px;
+  padding-right:20px;
+  float:left;
+  clear:both;
+  width:420px;
+  color:grey;
+}
+article h1{
+  margin:0;
+}
+article p{
+	font-size: 18px;
+	margin-top: 5px;
+}
+aside h1{
+  color:grey;
+  text-align:center;
+}
+footer{
+  clear:both;
+  margin:0;
+	margin-top:20px;
+  border-top:1px solid lightgrey;
+}
+
+footer p{
+  text-align:center;
+  color:grey;
+  font-size:80%;
+}
+#left-menu ul{
+  padding-bottom:20px;
+  padding-right:0;
+  padding-left:20px;
+}
+#left-menu li{
+  list-style-type: none;
+  padding:8px;
+  font-size:28px;
+}
+a{
+  text-decoration:none;
+  padding: 0;
+  }
+#left-menu a{
+	color: white;
+}
+
+
+.top-menu{
+  width:auto;
+}
+/*#top-menu a{
+  vertical-align:middle;
+}
+.top-menu ul{
+  display:block;
+  height:30px;
+}
+.top-menu li{
+  padding:5px;
+  display:inline;
+  /*background-color:#B9BCB1;
+  vertical-align:middle;
+}
+.top-menu a{
+  color:grey;
+}
+.top-menu li:before{
+  content:" | ";
+}
+.top-menu li:first-child:before{
+  content:none;
+}
+#reasonsColumn{
+  margin:0;
+  padding: 0;
+  padding-top:66px;
+  padding-left:20px;
+  list-style-type: none;
+  margin: 20px auto 0;
+  margin-top:0;
+  margin-bottom:10px;
+  width: 120px;
+  float:right	;
+	}
+#reasonsColumn img{
+  /*padding-top:66px;
+	height: 75px;
+  float:left;
+}
+/*#reasonsColumn ul{
+	width:60px;
+}
+#reasonsColumn li {
+  display: block;
+  color: #727A61;
+  padding:3px;
+}
+#reasonsColumn ul p{
+  /*margin-left:5px;
+  padding-left:5px;
+  /*width:50px;
+  float:right;
+}
+}
+.Gallery{
+	margin:0;
+	display:inline-block;
+  width:600px;
+  float:right;
+}
+.Gallery img{
+	height: 125px;
+	width: 210px;
+}
+.Gallery li{
+	text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+  <div id="body_style">
+    <header>  <!--start of top banner-->
+      <div id="logo">
+        <p>Glenwood Furniture</p>
+      </div>
+      <div id="slogan">
+        <p>Furniture for Everyday Living</p>
+      </div>
+			<div id="transparent">
+			</div>
+    </header>  <!-- end of top banner-->
+	<nav class="top-menu">
+      <ul>
+					<li><a href="index.html">Home</a></li>  <!--requirement 10-->
+	        <li><a href="Products.html">Products</a></li>
+	        <li><a href="Retail.html">Retail</a></li>
+	        <li><a href="Contract.html">Contract</a></li>
+	        <li><a href="NewBrochure2015.pdf">Brochure</a></li>
+		      <li><a href="Contact.html">Contact</a></li>
+				<li><a href= "AssignmentRequirements.html">Extra</a></li>
+      </ul>
+	</nav>
+
+	<hr>
+
+    <nav id="left-menu">
+      <ul>
+	   		<li>Collections</li>
+				<li><a href="#Metro">Metro</a></li>
+        <li><a href="#Loire">Loire </a></li>
+        <li><a href="#Brosna">Brosna</a></li>
+        <li><a href="#Classic">Classic</a></li>
+        <li><a href="#Retro">Retro</a></li>
+				<li><a href="#Cafe">Cafe</a></li>
+      </ul>
+    </nav>
+
+	<section>
+		<div class = "Gallery">
+		<h1><a name = "Metro"></a>Metro Collection</h1>
+		<table>
+			<tr>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+			</tr>
+
+			<tr>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+			</tr>
+			<tr>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+			</tr>
+
+			<tr>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+			</tr>
+		</table>
+
+		<h1><a name = "Loire"></a>Loire Collection</h1>
+		<table>
+			<tr>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+			</tr>
+
+			<tr>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+			</tr>
+			<tr>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+			</tr>
+
+			<tr>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+			</tr>
+		</table>
+
+		<h1><a name = "Brosna"></a>Brosna Collection</h1>
+		<table>
+			<tr>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+			</tr>
+
+			<tr>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+			</tr>
+			<tr>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+			</tr>
+
+			<tr>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+			</tr>
+		</table>
+
+		<h1><a name = "Classic"></a>Classic Collection</h1>
+		<table>
+			<tr>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+			</tr>
+
+			<tr>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+			</tr>
+			<tr>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+			</tr>
+
+			<tr>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+			</tr>
+		</table>
+
+		<h1><a name = "Retro"></a>Retro Collection</h1>
+		<table>
+			<tr>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+			</tr>
+
+			<tr>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+			</tr>
+			<tr>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+			</tr>
+
+			<tr>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+			</tr>
+		</table>
+
+		<h1><a name = "Cafe"></a>Cafe Collection</h1>
+		<table>
+			<tr>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+			</tr>
+
+			<tr>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+			</tr>
+			<tr>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+				<td><a href = "images/HighRes/Tables/Metro4ftRect.jpg"><img src="images/LowRes/Tables/Metro4ftRect.jpg" alt="Metro 4ft Rectangular Table"></a></td>
+			</tr>
+
+			<tr>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+				<td> <strong> Metro 4ft Oval</strong></td>
+			</tr>
+		</table>
+	</br></br>
+
+
+
+		</div>
+
+	</section>
+	
+
+
+	<!-- <div id="reasonsColumn">
+		<ul>
+			<li><img src="images/LowRes/LogosEtc/HeatResistant.jpg" alt="Heat Resistant" ></li>
+			<p>Heat Resistant</p>
+		</ul>
+	</div> -->
+
+
+
+
+    <footer>
+		<address>
+			<p>For more information contact
+			<a href = "mailto:info@glenwoodfurniture.ie">Glenwood email</a></p>
+        <p>All content copyright &copy; ,Glenwood Furniture Limited 2015</p>
+		</address>
+    </footer>
+
+
+  </div>
+</body>
+
+</html>
